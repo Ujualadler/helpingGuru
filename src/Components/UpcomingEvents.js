@@ -34,6 +34,15 @@ function UpcomingEvents() {
       >
         Upcoming Events
       </Typography>
+            <Typography
+              textAlign={"center"}
+              fontWeight={500}
+              fontSize={{ xs: "1rem", md: "1.2rem" }}
+              color={"#100854"}
+              mb={3}
+            >
+              Stay tuned for roundtables, summits, and workshops designed to connect, empower, and evolve the education ecosystem
+            </Typography>
 
       <Box display={"flex"} justifyContent={"center"} alignItems={"center"}>
         <Grid container width={{ lg: "70%", xs: "90%" }}>

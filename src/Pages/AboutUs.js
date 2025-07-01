@@ -58,6 +58,7 @@ function AboutUs() {
         display={"flex"}
         justifyContent={"center"}
         alignItems={"center"}
+        flexDirection={"column"}
       >
         <Typography
           mt={5}
@@ -66,6 +67,20 @@ function AboutUs() {
           fontSize={{ md: "30px", xs: "20px" }}
         >
           {serviceName ? serviceName.replace(/-/g, " ") : "About Us"}
+        </Typography>
+        <Typography
+          mt={5}
+          color={"white"}
+          fontWeight={500}
+          fontSize={{ md: "15px", xs: "12px" }}
+        >
+          {serviceName?.replace(/-/g, " ") === "Founders Voice"
+            ? "From school corridors to national summits—our journey began with a simple goal: to make education more connected, accessible, and impactful"
+            : serviceName?.replace(/-/g, " ") === "Our Mission And Vision"
+            ? ""
+            : serviceName?.replace(/-/g, " ") === "Our Family"
+            ? "The People Powering Our Mission"
+            : "A team of education - first professionals building real connections across 10,000+ schools — through strategy, service, and trust."}
         </Typography>
       </Box>
       {!serviceName ? (
@@ -167,11 +182,12 @@ function AboutUs() {
               </Typography>
               <Typography
                 fontWeight={600}
-                fontSize={{ md: "35px", xs: "20px" }}
+                fontSize={{ md: "20px", xs: "15px" }}
                 my={1}
                 maxWidth={{ md: "70%", xs: "100%" }}
               >
-                Gurus Happiness is our Happiness and Gurus pain is our pain
+                Real change in education doesn’t happen in isolation — it
+                happens when people, purpose, and partnerships align.
               </Typography>
               <Typography
                 fontWeight={400}
@@ -180,38 +196,38 @@ function AboutUs() {
                 maxWidth={{ md: "70%", xs: "100%" }}
                 color={"#100854"}
               >
-                Helping Gurus is an innovative platform that serves as a bridge
-                between Edtech partners and a vast network of educational
-                institutions across India. Our goal is to help you establish a
-                strong presence in schools and universities, making it easier
-                for educators to access the resources they need. With our
-                extensive connections, we enable you to reach a wide range of
-                institutions, including 10,000 CBSE schools, 400 ICSE schools,
-                50 IB schools, and 700 State Board schools.
+                At Helping Gurus, we are more than just an event and service
+                provider — we’re a catalyst for change in the Indian education
+                sector.
                 <br />
                 <br />
-                Joining our network means unlocking a plethora of opportunities
-                to showcase your brand and connect with educators nationwide.
-                Whether you are a startup Edtech company looking to expand your
-                reach or an established player seeking to strengthen your
-                presence, Helping Gurus offers the perfect platform for growth
-                and success.
+                With years of dedicated experience in the K12 space, we
+                specialize in designing and executing programs that bring value
+                to schools, educators, students, and EdTech partners alike. From
+                large-scale summits and roundtable discussions to staff
+                recruitment, teacher training, student initiatives, and
+                strategic collaborations, our work is rooted in the needs of
+                modern educational institutions.
                 <br />
                 <br />
-                At Helping Gurus, our mission is simple yet powerful: to bring
-                joy to educators by providing the support and resources they
-                need. We understand the challenges and pain points faced by
-                educators in today's fast-paced and ever-evolving educational
-                landscape. That's why our motto is centered around the happiness
-                and well-being of our Gurus – the educators who dedicate their
-                lives to shaping the minds of future generations.
+                What truly sets us apart is our extensive network of over
+                10,000+ schools across CBSE, ICSE, IB, and State Boards. This
+                wide reach allows us to craft tailored, scalable solutions for a
+                variety of educational and brand-building needs — while ensuring
+                local relevance and national impact.
                 <br />
                 <br />
-                We believe that when Gurus are happy, motivated, and
-                well-equipped, they can create a positive impact on their
-                students and communities. On the flip side, when they face
-                challenges and struggles, we feel their pain and strive to
-                provide solutions and support to help them overcome obstacles.
+                Our team brings together passionate professionals with deep
+                insight into school dynamics, enabling us to bridge the gap
+                between institutions and innovation. Whether you're a school
+                leader looking to enhance your institution's engagement or an
+                EdTech brand aiming to break into the academic space, Helping
+                Gurus is the partner you can count on.
+                <br />
+                <br />
+                We believe in creating real connections, delivering measurable
+                value, and most importantly — helping the education ecosystem
+                thrive.
               </Typography>
             </Grid>
           </Grid>
@@ -239,6 +255,16 @@ function AboutUs() {
                   color={"#FF8126"}
                 >
                   Join Helping Gurus Network!
+                </Typography>
+                <Typography
+                  textAlign={"center"}
+                  fontSize={"14px"}
+                  fontWeight={600}
+                  color={"#fff"}
+                  my={1}
+                >
+                  A thriving ecosystem of schools, educators, and academic
+                  leaders—built on trust, reach, and results.
                 </Typography>
               </Grid>
               {aboutusData.map((data) => (
@@ -291,7 +317,7 @@ function AboutUs() {
                   fontWeight={700}
                   color={"#FF8126"}
                 >
-                  Achievments
+                  Our Achievements at a Glance
                 </Typography>
               </Grid>
               <Grid
@@ -344,9 +370,10 @@ function AboutUs() {
                   textAlign={"center"}
                   fontSize={"15px"}
                   fontWeight={600}
-                  color={"#FF8126"}
+                  color={"#fff"}
                 >
-                  Experience the difference with us!
+                  Experience the difference with Helping Gurus — where every
+                  connection leads to transformation
                 </Typography>
               </Grid>
             </Grid>
@@ -418,49 +445,45 @@ function AboutUs() {
                 maxWidth={{ md: "85%", xs: "100%" }}
                 color={"#100854"}
               >
-                As the Founder and CEO of Helping Gurus, Mr. Rajiv Bahl has
-                built a company that is dedicated to supporting educators and
-                schools across India. With years of experience and a passion for
-                making a difference in the education sector, Mr. Bahl and his
-                team are committed to ensuring the happiness and success of
-                every educator they work with. One of the key aspects of Helping
-                Gurus' founder message is their motto,
-                <strong>
-                  "Gurus Happiness is our Happiness and Gurus pain is our pain."
-                </strong>{" "}
-                This reflects their deep understanding of the challenges that
-                educators face on a daily basis and their commitment to
-                addressing those challenges in a timely and effective manner. By
-                putting the needs of educators first, Helping Gurus has been
-                able to build strong and lasting relationships with over 5,000
-                educational institutions across the country.
+                The story of Helping Gurus is deeply personal. What began as
+                individual contributions in the field of school education
+                gradually evolved into a nationwide movement—one that now
+                connects over 10,000 institutions, educators, and academic
+                influencers across India.
                 <br />
                 <br />
-                One of the main objections that educators often face is the lack
-                of support and resources available to them. Mr. Bahl and his
-                team at Helping Gurus have made it their mission to provide
-                educators with the tools and assistance they need to succeed.
-                Whether it's through marketing strategy, relationship building,
-                influencer outreach, or lead generation, Helping Gurus is always
-                there to offer support and guidance to educators who are looking
-                to improve their teaching practices
+                Having worked closely with schools for several years, I noticed
+                a crucial gap: the lack of cohesive, meaningful engagement
+                between institutions, educators, and external partners. Schools
+                often struggled to access reliable platforms for talent
+                acquisition, teacher training, and student enrichment, while
+                educational service providers lacked credible ways to connect
+                with the right audience. Helping Gurus was born to bridge this
+                exact gap.
                 <br />
-                <br /> Another key objection that educators face is the feeling
-                of being overwhelmed and overworked. With the demands of
-                teaching, lesson planning, and grading, educators often find
-                themselves struggling to balance their workload and personal
-                life. Helping Gurus recognizes this challenge and works with
-                educators to find solutions that will help them manage their
-                time more effectively and reduce their stress levels.
                 <br />
-                <br /> Ultimately, Mr. Bahl's vision for Helping Gurus is to
-                bring a smile to the face of every educator they work with. By
-                addressing the pain points and challenges that educators face on
-                a daily basis, Helping Gurus is helping to improve the
-                educational landscape and ensure that educators have the support
-                they need to thrive. Through their dedication, passion, and
-                commitment to excellence, Mr. Bahl and his team are truly making
-                a difference in the lives of educators across India.
+                We started small—organizing focused school events, curating
+                educator workshops, and initiating one-on-one conversations with
+                school leaders. Over time, the trust we built turned into
+                long-standing relationships. With each roundtable we hosted and
+                every summit we led, the demand for authentic, on-ground
+                educational solutions only grew stronger.
+                <br />
+                <br /> Today, Helping Gurus is more than just an events and
+                services platform. It’s a shared space where schools find value,
+                teachers find purpose, students find growth opportunities, and
+                EdTech partners find their voice.
+                <br />
+                <br />
+                As the founder, I remain actively involved in every aspect of
+                this journey—from designing engagement strategies to sitting in
+                school meetings—because I believe leadership is about staying
+                connected to the ground reality.
+                <br />
+                <br />
+                Helping Gurus is built not just on expertise, but on empathy,
+                listening, and meaningful action. And we’re just getting
+                started.
               </Typography>
             </Grid>
           </Grid>
@@ -490,7 +513,7 @@ function AboutUs() {
                 fontSize={{ md: "35px", xs: "20px" }}
                 my={1}
               >
-                Our Mission & Vision
+                Our Mission
               </Typography>
               <Typography
                 fontWeight={400}
@@ -499,62 +522,69 @@ function AboutUs() {
                 color={"#100854"}
               >
                 At Helping Gurus, our mission is to bridge the gap between
-                <b>edtech partners and educational institutions</b> across
-                India. We understand the importance of establishing a strong
-                presence in schools and universities, and our vast network
-                allows us to connect you with thousands of
-                <b> CBSE, ICSE, IB, and State Board schools</b>. Our goal is to
-                make it easy for your brand to reach educators and students
-                nationwide, ensuring that you have the support and resources you
-                need to succeed in the education sector.
+                educational institutions and EdTech partners by creating
+                meaningful, long-lasting connections. We recognize the
+                importance of visibility and credibility in the education
+                sector—and with our vast, verified network of over 10,000+ CBSE
+                schools, 400+ ICSE schools, 50+ IB schools, and 700+ State Board
+                institutions—we help brands establish their presence across the
+                entire educational spectrum in India.
                 <br />
                 <br />
-                With over 10,000 CBSE schools, 400 ICSE schools, 50 IB schools,
-                <b>and 700 State Board schools in our network</b>, we are
-                dedicated to bringing joy to educators by providing them with
-                the assistance they require. We understand the challenges that
-                educators face in today's ever-evolving educational landscape,
-                and we are here to support them every step of the way.
-                <br />
-                Our motto,{" "}
-                <b>
-                  "Gurus' Happiness is Our Happiness, Gurus' Pain is Our Pain,"
-                </b>{" "}
-                reflects our commitment to prioritizing the needs of educators
-                and ensuring that they have access to the resources and support
-                they need to excel in their roles. We believe that by supporting
-                educators, we can ultimately uplift the level of education
-                across the globe and build a community of dedicated
-                professionals who are passionate about making a difference in
-                the lives of students.
+                But we go beyond just facilitating connections. At the heart of
+                our work lies a genuine commitment to supporting educators—the
+                individuals who carry the responsibility of shaping the future.
+                We understand the daily challenges faced by teachers, school
+                leaders, and education staff. Whether it's the pressure of
+                curriculum delivery, lack of resources, or the absence of
+                professional support, we aim to step in where help is most
+                needed.
                 <br />
                 <br />
-                <b>Our vision</b> at <b>Helping Gurus</b> is to create a
-                supportive and nurturing environment for educators, where they
-                can access the guidance and assistance they need to overcome any
-                challenges they may face. Whether it's addressing manpower
-                issues, school administrative problems, or enhancing the
-                knowledge of staff members, we are here to provide the necessary
-                support and assistance to ensure that educators have the tools
-                they need to succeed.
+                Our motto, “Gurus’ Happiness is Our Happiness. Gurus’ Pain is
+                Our Pain,” is more than a statement—it's a guiding principle. We
+                exist to serve educators by providing access to training,
+                recruitment assistance, exposure to expert speakers, and
+                educational tools that help them thrive in an ever-evolving
+                landscape. Through our diverse services, we aim to bring both
+                joy and ease to the lives of those who dedicate themselves to
+                education. By creating opportunities for schools and EdTech
+                partners to collaborate meaningfully, we’re not just helping
+                institutions grow—we’re also enriching the quality of education
+                delivered to students across the country.
                 <br />
                 <br />
-                We understand that every educator is unique and may require
-                different types of support, which is why we are committed to
-                offering personalized assistance tailored to the specific needs
-                of each individual. Our team of experts is dedicated to
-                providing guidance, resources, and solutions to help educators
-                navigate the complexities of the education sector and achieve
-                their goals.
+                <Typography
+                  fontWeight={600}
+                  fontSize={{ md: "35px", xs: "20px" }}
+                  my={1}
+                >
+                  Our Vision
+                </Typography>
+                Our vision is to create a future where every educator feels
+                supported, empowered, and never alone in their journey. We aim
+                to build a nurturing ecosystem where teachers, administrators,
+                and school stakeholders have seamless access to the tools,
+                guidance, and services they need to succeed
                 <br />
                 <br />
-                At Helping Gurus, we truly believe that no educator should have
-                to face their challenges alone. Our doors are always open, and
-                we are here to support you, no matter what the situation may be.
-                Join us in our mission to uplift the level of education across
-                the globe and build a community of empowered and supported
-                educators who are committed to making a difference in the lives
-                of students
+                We envision Helping Gurus as the trusted go-to platform for
+                schools across all boards and regions—offering personalized,
+                relevant support for everything from manpower solutions and
+                academic enhancement to professional development and school
+                management. In doing so, we hope to reduce operational friction
+                for institutions and bring clarity and confidence to every
+                educator’s path.
+                <br />
+                <br />
+                We also strive to act as the catalyst that enables EdTech brands
+                to reach the right audiences—not through aggressive sales
+                tactics, but by integrating value-driven partnerships that
+                benefit schools, teachers, and learners alike. At Helping Gurus,
+                we believe education flourishes in a space of collaboration and
+                compassion. Our vision is to grow this space—one connection, one
+                institution, and one educator at a time—until every classroom
+                becomes a place of empowered learning and joyful teaching.
               </Typography>
             </Grid>
           </Grid>
@@ -594,39 +624,58 @@ function AboutUs() {
                 color={"#100854"}
               >
                 <b>
-                  Meet the team behind Helping Gurus, the dedicated individuals
-                  who work tirelessly to connect Edtech partners with schools
-                  and universities across India. Our team is made up of
-                  passionate individuals who believe in the power of education
-                  and technology to shape the future.
+                  Behind every great initiative is a team that believes in its
+                  purpose—and at Helping Gurus, our purpose begins with people.
+                  Meet the passionate, driven, and education-first professionals
+                  who form the backbone of everything we do.
                 </b>
                 <br />
                 <br />
                 <b>
-                  At the helm of Helping Gurus is our founder, who brings years
-                  of experience in the education industry and a strong network
-                  of contacts. Our team also includes experienced professionals
-                  in marketing, sales, and client relations. Together, we work
-                  diligently to establish strong partnerships between Edtech
-                  partners and educational institutions nationwide.
+                  At the heart of Helping Gurus is a collective of individuals
+                  who bring together years of experience in education,
+                  marketing, school outreach, event strategy, EdTech engagement,
+                  and brand partnerships. Each member of our team plays a vital
+                  role in connecting over 10,000 schools across CBSE, ICSE, IB,
+                  and State Boards with trusted educational solutions and
+                  partners.
                 </b>
                 <br />
                 <br />
                 <b>
-                  Our team is driven by a common goal - to revolutionize
-                  education in India by leveraging the latest technology and
-                  innovative solutions. We believe that by connecting Edtech
-                  partners with schools and universities, we can create a more
-                  interactive and engaging learning experience for students.
+                  Leading the way is our founder, whose deep-rooted experience
+                  in school engagement and strategic collaboration has laid the
+                  foundation for what Helping Gurus is today. With a keen
+                  understanding of academic institutions and their real-world
+                  challenges, our founder has built not just a business—but a
+                  movement that puts educators first. Our extended team includes
+                  specialists in relationship management, school liaison
+                  coordination, event execution, content creation, teacher
+                  training, and EdTech consulting. Whether they’re organizing
+                  summits, recruiting talent for schools, coordinating speaker
+                  sessions, or managing client campaigns, our team works with a
+                  shared commitment to uplift the education ecosystem.
                 </b>
                 <br />
                 <br />
                 <b>
-                  With Helping Gurus, you can trust that you are working with a
-                  team that is committed to your success. We are here to support
-                  you every step of the way and help you reach your goals in the
-                  ever-evolving landscape of education technology. Let us help
-                  you make a difference in education today.
+                  What truly binds us together is our belief in education as a
+                  force for good—and our role as enablers of that
+                  transformation. We don’t just connect EdTech companies with
+                  schools; we build bridges that lead to shared success. We
+                  don’t just host events; we create experiences that inspire
+                  educators and empower students. We also pride ourselves on
+                  being approachable, agile, and aligned with the mission:
+                  <b>
+                    “Gurus’ Happiness is Our Happiness. Gurus’ Pain is Our
+                    Pain.”
+                  </b>
+                  It’s not just a motto—it’s our daily motivation. At Helping
+                  Gurus, we’re not a vendor or a third-party service—we’re your
+                  extended team. A family of professionals who are as invested
+                  in your goals as you are. Our promise is simple: whether
+                  you're a school looking for support or a brand ready to grow,
+                  you're in good hands.
                 </b>
               </Typography>
             </Grid>

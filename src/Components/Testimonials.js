@@ -158,7 +158,17 @@ function Testimonials() {
         color={"#100854"}
         mb={3}
       >
-        Testimonials
+        Testimonials: What Our Community Says
+      </Typography>
+      <Typography
+        textAlign={"center"}
+        fontWeight={500}
+        fontSize={{ xs: "1rem", md: "1.2rem" }}
+        color={"#100854"}
+        mb={3}
+      >
+        Hear directly from school leaders, educators, and partners who’ve
+        experienced the Helping Gurus impact.
       </Typography>
       <Grid
         container

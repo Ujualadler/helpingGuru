@@ -63,6 +63,15 @@ function OurSpeakers() {
       >
         Meet Our Inspiring Speakers
       </Typography>
+      <Typography
+        textAlign={"center"}
+        fontWeight={500}
+        fontSize={{ xs: "1rem", md: "1.2rem" }}
+        color={"#100854"}
+        mb={3}
+      >
+         Thought leaders, changemakers, and education experts who spark ideas and inspire action across institutions
+      </Typography>
       <Grid container borderRadius={3}>
         {/* <Title title={"Experiential Learning"} /> */}
 

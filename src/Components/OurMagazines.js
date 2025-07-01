@@ -65,6 +65,16 @@ function OurSpeakers() {
       >
         Our Magazines
       </Typography>
+      <Typography
+        textAlign={"center"}
+        fontWeight={500}
+        fontSize={{ xs: "1rem", md: "1.2rem" }}
+        color={"#100854"}
+        mb={3}
+      >
+        Showcasing student creativity, academic insights, and institutional
+        stories from our ever-growing school network and thought leaders.{" "}
+      </Typography>
       <Grid container borderRadius={3}>
         {/* <Title title={"Experiential Learning"} /> */}
 

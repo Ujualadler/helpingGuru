@@ -313,9 +313,21 @@ function Slider() {
   const [eventbook, setEventBook] = useState(false);
 
   const eventsData = [
-    { name: "Helping Gurus", img: "/images/home2.jpg" },
-    { name: "Helping Gurus", img: "/images/gurus9.jpeg" },
-    { name: "Helping Gurus", img: "/images/gurus10.jpeg" },
+    {
+      name: "Helping Gurus: Where Schools and Solutions Meet",
+      sub: "Powering Meaningful Engagement for 10,000+ K12 Schools Across India",
+      img: "/images/home2.jpg",
+    },
+    {
+      name: "Helping Gurus: Where Schools and Solutions Meet",
+      sub: "Powering Meaningful Engagement for 10,000+ K12 Schools Across India",
+      img: "/images/gurus9.jpeg",
+    },
+    {
+      name: "Helping Gurus: Where Schools and Solutions Meet",
+      sub: "Powering Meaningful Engagement for 10,000+ K12 Schools Across India",
+      img: "/images/gurus10.jpeg",
+    },
   ];
 
   const handleSelectSlide = (index) => {
@@ -381,17 +393,17 @@ function Slider() {
           <Typography
             fontWeight={800}
             width={"100%"}
-            fontSize={{ md: "6vw", xs: "11vw" }}
+            fontSize={{ md: "2.5vw", xs: "5vw" }}
             color={"#ffff"}
           >
             {data?.name}
           </Typography>
           <Typography
             fontWeight={600}
-            fontSize={{ md: "4vw", xs: "6vw" }}
+            fontSize={{ md: "1.2vw", xs: "2vw" }}
             color={"white"}
           >
-            {data?.name}
+            {data?.sub}
           </Typography>
         </Box>
         <Box
@@ -464,48 +476,12 @@ function Slider() {
               color: "white",
             }}
           >
-            Helping Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus..... Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....Helping
-            Gurus.....Helping Gurus.....Helping Gurus.....
+            Hs your trusted partner in creating meaningful educational journeys
+            through curated school events, teacher development programs, and
+            student engagement initiatives. With a growing network of 10,000+
+            schools and educators, we specialize in connecting institutions with
+            solutions that inspire, innovate, and transform.We empower
+            institutions to inspire, innovate, and grow.
           </Typography>
         </Box>
         <style>{scrollingTextStyles}</style>

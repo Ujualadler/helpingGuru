@@ -6,43 +6,39 @@ function OurServices() {
   const navigate = useNavigate();
   const ourservicesData = [
     {
-      name: "Educational Events & Roundtables",
+      name: "Educational Events & Leadership Roundtables",
       img: "/images/educationalEvents.png",
-      description: `At Helping Gurus, we specialize in organizing large-scale educational events for schools and colleges. With a track record of 15 successful RoundTable Sessions and 5 Summits, we bring together top educational authorities from our extensive network of over 10,000 schools and 100 universities.`,
+      description: `We curate impactful educational events, leadership roundtables, and workshops tailored for schools. These sessions create opportunities for collaboration, knowledge exchange, and meaningful engagement between educators, administrators, and thought leaders across the Indian education landscape.`,
     },
     {
-      name: "Staff Recruitment Solutions",
+      name: "School Staff Recruitment Solutions",
       img: "/images/recruitmentstaff.png",
-      description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-      do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit
-      esse`,
+      description: `We assist schools in hiring qualified teaching and non-teaching staff through a streamlined recruitment process. Our extensive network and education-sector expertise ensure reliable staffing solutions tailored to each institution’s unique requirements.`,
     },
     {
-      name: "Inspiring Speakers for Educational Institutions",
+      name: "Inspirational Speakers for Schools & Colleges",
       img: "/images/ispeaker.png",
-      description: `At HelpingGurus, we specialize in providing renowned personalities
-      from the education sector to schools and colleges. Our vast
-      network includes motivational speakers, spiritual leaders, content
-      creators, business coaches, IAS officers, government officials, as
-      well as authorities from NCERT, CBSE, NITI Ayog and KVS Sangathan`,
+      description: `We connect schools with dynamic, motivational speakers and subject experts who can inspire students, engage faculty, and drive thought leadership during assemblies, special events, and academic functions across all boards.`,
     },
     {
-      name: "Educational Magazine Hub",
+      name: "Educational Content & Magazine Publishing",
       img: "/images/educationalMagazine.png",
-      description: `Step into a world where knowledge meets community, where ideas flow freely, and connections are nurtured. Helping Gurus Magazine invites you to join a vibrant platform that bridges the gap between educators, students, and parents.`,
+      description: `Our magazine platform offers schools and students a voice to share creativity, achievements, and innovations. From student features to expert articles, we help institutions build pride, visibility, and community through high-quality educational publications.`,
     },
     {
-      name: "Teacher Training Certification Programme",
+      name: "Teacher Training & Certification Programmes",
       img: "/images/training.png",
-      description: `At Helping Gurus, we provide Teacher Training Certification Programs on many topics. Our experts have 25 to 30 years of experience in their fields.`,
+      description: `Helping Gurus delivers structured training and certification programs for teachers to enhance pedagogical skills, classroom delivery, and leadership capacity—empowering educators to adapt to modern learning needs and build stronger academic outcomes.`,
     },
     {
-      name: "Talks With Gurus",
+      name: "Talks With Gurus: Expert-Led Knowledge Sessions",
       img: "/images/talkWithmaster.png",
-      description: `At Helping Gurus, we provide Teacher Training Certification Programs on many topics. Our experts have 25 to 30 years of experience in their fields.`,
+      description: `Our signature "Gurus Talks" series brings experienced educators and industry experts to the spotlight through interactive sessions—offering real-world insights, inspiration, and shared wisdom with school communities across India.`,
+    },
+    {
+      name: "Lead Generation & Campaigns for EdTech Brands",
+      img: "/images/leadGeneration.png",
+      description:'We help EdTech brands connect with decision-makers in over 10,000 schools through strategic lead generation, event partnerships, and campaign activations—building brand visibility and fostering genuine, long-term institutional relationships.'
     },
   ];
   return (
@@ -58,7 +54,12 @@ function OurServices() {
         justifyContent={"center"}
         alignItems={"center"}
       >
-        <Typography mt={2}  color={"white"} fontWeight={700} fontSize={{md:"30px",xs:'20px'}}>
+        <Typography
+          mt={2}
+          color={"white"}
+          fontWeight={700}
+          fontSize={{ md: "30px", xs: "20px" }}
+        >
           Our Services
         </Typography>
       </Box>

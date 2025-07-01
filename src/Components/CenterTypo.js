@@ -39,7 +39,7 @@ function CenterTypo() {
         fontSize={"30px"}
         sx={{ position: "relative", zIndex: 2 }}
       >
-        Why Helping Guru?
+         Why Schools & Brands Choose Helping Gurus?
       </Typography>
       <Typography
         textAlign={"center"}
@@ -48,11 +48,13 @@ function CenterTypo() {
         mt={2}
         sx={{ position: "relative", zIndex: 2 }}
       >
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries,
+        We don’t just connect people — we create possibilities. At Helping
+        Gurus, we combine deep-rooted school relationships with strategic
+        expertise to deliver solutions that actually work. Whether it's planning
+        powerful school events, sourcing the right talent, engaging educators,
+        or helping EdTech brands break into the academic space, our work is
+        driven by purpose, precision, and partnership. We’re not just a bridge —
+        we’re the team that walks with you to the other side.
       </Typography>
     </Box>
   );

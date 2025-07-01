@@ -23,10 +23,6 @@ const erpData = [
     img: "/images/entab.jpeg",
   },
   {
-    name: "JupSoft",
-    img: "/images/jupsoft.jpeg",
-  },
-  {
     name: "Skolaro",
     img: "/images/skolaro.jpeg",
   },
@@ -37,94 +33,7 @@ const erpData = [
   {
     name: "Franciscan",
     img: "/images/franciscan.jpeg",
-  },
-  {
-    name: "CampusPro",
-    img: "/images/campuspro.jpeg",
-  },
-  {
-    name: "Brainwonders",
-    img: "/images/brainwonders.jpeg",
-  },
-  {
-    name: "Brio Touch",
-    img: "/images/brio.jpeg",
-  },
-  {
-    name: "LiveLife Education",
-    img: "/images/livelife.jpeg",
-  },
-  {
-    name: "Dramm Jamm Education",
-    img: "/images/drammjamm.jpeg",
-  },
-  {
-    name: "NTT DATA",
-    img: "/images/nttdata.jpeg",
-  },
-
-  {
-    name: "Sprouts",
-    img: "/images/sprouts.jpeg",
-  },
-  {
-    name: "Truscholar",
-    img: "/images/truscholar.jpeg",
-  },
-  {
-    name: "UCMAS",
-    img: "/images/ucmas.png",
-  },
-  {
-    name: "Learntech",
-    img: "/images/learntech.jpeg",
-  },
-  {
-    name: "Hitbullseye",
-    img: "/images/hitbullseye.jpeg",
-  },
-  {
-    name: "Wisetime",
-    img: "/images/Wisetime.png",
-  },
-
-  {
-    name: "On My Own Technology",
-    img: "/images/onmyown.jpeg",
-  },
-  {
-    name: "BrightChamps",
-    img: "/images/brightchamps.jpeg",
-  },
-  {
-    name: "Adventure",
-    img: "/images/adventure.jpeg",
-  },
-  {
-    name: "Singhania Quest",
-    img: "/images/quest.jpeg",
-  },
-  {
-    name: "Gray Quest",
-    img: "/images/greyquest.jpeg",
-  },
-  {
-    name: "Torrins",
-    img: "/images/torrins.jpeg",
-  },
-  {
-    name: "Ict360",
-    img: "/images/ict360.jpeg",
-  },
-
-  {
-    name: "LogiQuids",
-    img: "/images/loglrids.jpeg",
-  },
-  {
-    name: "Geeta University",
-    img: "/images/geeta.jpeg",
-  },
+  }
 ];
 
 function GurusHelp() {

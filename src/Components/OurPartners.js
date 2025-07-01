@@ -94,6 +94,16 @@ function OurPartners() {
       >
         Our Trusted Partners
       </Typography>
+      <Typography
+        textAlign={"center"}
+        fontWeight={500}
+        fontSize={{ xs: "1rem", md: "1.2rem" }}
+        color={"#100854"}
+        mb={3}
+      >
+        We collaborate with leading K12 schools and EdTech brands that share our
+        vision for transforming education across India.
+      </Typography>
       <Grid container borderRadius={3}>
         {/* <Title title={"Experiential Learning"} /> */}
 

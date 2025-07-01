@@ -33,9 +33,9 @@ function Footer() {
               />
             </Box>
             <Typography fontSize={"13px"} color={"white"} textAlign={"left"}>
-              At Helping Gurus, we leverage an extensive network of CBSE, ICSE,
-              IB, State Board schools & Universities to help Edtech partners
-              establish their presence across India.
+              Helping Gurus is a trusted education partner connecting schools,
+              educators, and brands through impactful events, training, and
+              strategic collaborations.
             </Typography>
           </Box>
         </Grid>
@@ -95,7 +95,8 @@ function Footer() {
               Address
             </Typography>
             <Typography fontSize={"13px"} color={"white"}>
-              Delhi, India
+              B-54, Golf Course Road, Suncity, Sector 54, Haiderpur, Golf Course
+              Rd, Suncity, Sector 54, Haiderpur, Gurugram, Haryana 122011
             </Typography>
             <Box display={"flex"} alignItems={"center"} gap={1.2} mt={2}>
               <img
@@ -134,7 +135,7 @@ function Footer() {
             loading="lazy"
             allowfullscreen
             referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83999965772!2d77.06889965004984!3d28.527280006173133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi%2C%20India!5e0!3m2!1sen!2sus!4v1659322345678!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.4234567890123!2d77.08901234567890!3d28.456789012345678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1bb6ad98e0d3%3A0x9876543210abcdef!2sB-54%2C%20Golf%20Course%20Rd%2C%20Suncity%2C%20Sector%2054%2C%20Haiderpur%2C%20Gurugram%2C%20Haryana%20122011%2C%20India!5e0!3m2!1sen!2sus!4v1659322345678!5m2!1sen!2sus"
           ></iframe>
         </Grid>
       </Grid>

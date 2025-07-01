@@ -207,7 +207,7 @@ function About() {
             mb={1}
             color={"#100854"}
           >
-            About Us
+            About Helping Gurus: Build to Empower Schools & Educators
           </Typography>
           <Typography
             maxWidth={{ md: "90%", xs: "100%" }}
@@ -216,11 +216,21 @@ function About() {
             fontSize={"15px"}
             color={"#100854"}
           >
-            At Helping Gurus, we leverage an extensive network of CBSE, ICSE,
-            IB, State Board schools & Universities to help Edtech partners
-            establish their presence across India. By showcasing your brand
-            through our comprehensive connections, we facilitate seamless entry
-            into educational institutions nationwide. 
+            Helping Gurus is an education-first organization committed to
+            delivering excellence in the K12 sector through curated school
+            events, educator development programs, and student engagement
+            solutions. With a deep understanding of academic environments and
+            institutional needs, we bring personalized offerings that align with
+            each school's vision, values, and goals. We leverage an extensive
+            network of CBSE, ICSE, IB, State Board schools, and universities to
+            help EdTech partners establish a strong presence across India. By
+            showcasing your brand through our comprehensive connections, we
+            facilitate seamless entry into educational institutions nationwide —
+            ensuring meaningful visibility and trusted partnerships. Our growing
+            community of 10,000+ schools and educators reflects our credibility,
+            reach, and impact. Whether you're a school leader seeking growth or
+            a brand looking to connect with the academic ecosystem, Helping
+            Gurus is your gateway to purposeful collaboration in education
           </Typography>
 
           <Button
@@ -245,6 +255,14 @@ function About() {
             >
               Our Services
             </Typography>
+            <Typography
+              fontWeight={500}
+              fontSize={"15px"}
+              my={1}
+              color={"#100854"}
+            >
+              Strategic Support for K12 Brands & EdTech Brands
+            </Typography>
             <Grid
               container
               mt={1}
@@ -264,7 +282,7 @@ function About() {
                         height: "100px",
                         width: "100px",
                         borderRadius: "5px",
-                        objectFit:'cover',
+                        objectFit: "cover",
                         background:
                           "linear-gradient(to right, #6D7BFE, #3034BB)",
                       }}
@@ -274,7 +292,7 @@ function About() {
                     <Typography
                       textAlign={{ xs: "center", md: "start" }}
                       fontSize={{ sm: "13px", xs: "11px" }}
-                      sx={{ width: "120px"}}
+                      sx={{ width: "120px" }}
                       fontWeight={600}
                     >
                       {data.name}

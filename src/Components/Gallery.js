@@ -72,6 +72,16 @@ function Gallery() {
       >
         Gallery
       </Typography>
+      <Typography
+        textAlign={"center"}
+        fontWeight={500}
+        fontSize={{ xs: "1rem", md: "1.2rem" }}
+        color={"#100854"}
+        mb={3}
+      >
+        A glimpse into our vibrant events, inspiring sessions, and impactful
+        moments across schools and summits.
+      </Typography>
       <Grid container>
         {/* <Title title={"Experiential Learning"} /> */}
 
@@ -132,8 +142,9 @@ function Gallery() {
                         style={{
                           width: "100%",
                           height: "35vh",
-                          objectFit:'cover',
-                          background:'linear-gradient(to right, #6D7BFE, #3034BB)'
+                          objectFit: "cover",
+                          background:
+                            "linear-gradient(to right, #6D7BFE, #3034BB)",
                         }}
                         loading="lazy"
                       />
