@@ -36,7 +36,7 @@ function CenterTypo() {
         textAlign={"center"}
         color={"white"}
         fontWeight={800}
-        fontSize={"30px"}
+        fontSize={"20px"}
         sx={{ position: "relative", zIndex: 2 }}
       >
          Why Schools & Brands Choose Helping Gurus?

@@ -1,101 +1,3 @@
-// import { Grid, Rating, Typography } from "@mui/material";
-// import { Box } from "@mui/system";
-// import React from "react";
-
-// function Testimonials() {
-//   const [value, setValue] = React.useState(5);
-
-//   const testimonialData = [
-//     {
-//       nname: "Felbin",
-//       description:
-//         "Lorem Ipsum is simply dummy text of the printing and typesettingindustry",
-//       img: "https://s3-alpha-sig.figma.com/img/b220/54ac/3fcf29a0776a645093bbda2fc2666665?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EYCOfF1FgjuNv4IH8dvn7muSBSb8GZOLmDA7qE0HFzSimqYj99raLPbbQMF49VJXIoQL8I6L4xiM8U0pQla0QuoyRbO3xPa8EGBxk2YBo9bN9GEotc35pv3BvRq-D~EHU3u5OuqVQ6Ky8eOxlRvrDVRyZMJ1nD~-2XrQi5pjJomXW8K4ynGg-JWc9FCOr5vCD7ztUerUBauQNGxtBH1qts1VJnKDVgtgr6ICLn9khbWqpkQeqS5SDnW6zGTQBCHGrHyuiIgYh3etQegJ6DfCFJpZMpQZv5zaQ3YZ~aB6pjOxmsCOvQqXVlswuj3J5G5mbSQ6uoNbihIkDapxQCs4Rw__",
-//     },
-//     {
-//       nname: "Felbin",
-//       description:
-//         "Lorem Ipsum is simply dummy text of the printing and typesettingindustry",
-//       img: "https://s3-alpha-sig.figma.com/img/b220/54ac/3fcf29a0776a645093bbda2fc2666665?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EYCOfF1FgjuNv4IH8dvn7muSBSb8GZOLmDA7qE0HFzSimqYj99raLPbbQMF49VJXIoQL8I6L4xiM8U0pQla0QuoyRbO3xPa8EGBxk2YBo9bN9GEotc35pv3BvRq-D~EHU3u5OuqVQ6Ky8eOxlRvrDVRyZMJ1nD~-2XrQi5pjJomXW8K4ynGg-JWc9FCOr5vCD7ztUerUBauQNGxtBH1qts1VJnKDVgtgr6ICLn9khbWqpkQeqS5SDnW6zGTQBCHGrHyuiIgYh3etQegJ6DfCFJpZMpQZv5zaQ3YZ~aB6pjOxmsCOvQqXVlswuj3J5G5mbSQ6uoNbihIkDapxQCs4Rw__",
-//     },
-//     {
-//       nname: "Felbin",
-//       description:
-//         "Lorem Ipsum is simply dummy text of the printing and typesettingindustry",
-//       img: "https://s3-alpha-sig.figma.com/img/b220/54ac/3fcf29a0776a645093bbda2fc2666665?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EYCOfF1FgjuNv4IH8dvn7muSBSb8GZOLmDA7qE0HFzSimqYj99raLPbbQMF49VJXIoQL8I6L4xiM8U0pQla0QuoyRbO3xPa8EGBxk2YBo9bN9GEotc35pv3BvRq-D~EHU3u5OuqVQ6Ky8eOxlRvrDVRyZMJ1nD~-2XrQi5pjJomXW8K4ynGg-JWc9FCOr5vCD7ztUerUBauQNGxtBH1qts1VJnKDVgtgr6ICLn9khbWqpkQeqS5SDnW6zGTQBCHGrHyuiIgYh3etQegJ6DfCFJpZMpQZv5zaQ3YZ~aB6pjOxmsCOvQqXVlswuj3J5G5mbSQ6uoNbihIkDapxQCs4Rw__",
-//     },
-//     {
-//       nname: "Felbin",
-//       description:
-//         "Lorem Ipsum is simply dummy text of the printing and typesettingindustry",
-//       img: "https://s3-alpha-sig.figma.com/img/b220/54ac/3fcf29a0776a645093bbda2fc2666665?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EYCOfF1FgjuNv4IH8dvn7muSBSb8GZOLmDA7qE0HFzSimqYj99raLPbbQMF49VJXIoQL8I6L4xiM8U0pQla0QuoyRbO3xPa8EGBxk2YBo9bN9GEotc35pv3BvRq-D~EHU3u5OuqVQ6Ky8eOxlRvrDVRyZMJ1nD~-2XrQi5pjJomXW8K4ynGg-JWc9FCOr5vCD7ztUerUBauQNGxtBH1qts1VJnKDVgtgr6ICLn9khbWqpkQeqS5SDnW6zGTQBCHGrHyuiIgYh3etQegJ6DfCFJpZMpQZv5zaQ3YZ~aB6pjOxmsCOvQqXVlswuj3J5G5mbSQ6uoNbihIkDapxQCs4Rw__",
-//     },
-//   ];
-
-//   return (
-//     <Box mt={5}>
-//       <Typography
-//         textAlign={"center"}
-//         fontWeight={800}
-//         fontSize={{ xs: "1.5rem", md: "2rem" }}
-//         color={"#100854"}
-//         mb={3}
-//       >
-//         Testimonials
-//       </Typography>
-//       <Box
-//         display={"flex"}
-//         justifyContent={"center"}
-//         alignItems={"center"}
-//         width={"100%"}
-//       >
-//         <Grid container width={"70%"}>
-//           {testimonialData.map((data, index) => (
-//             <Grid item md={3} key={index}>
-//               <Box
-//                 display={"flex"}
-//                 flexDirection={"column"}
-//                 alignItems={"center"}
-//                 gap={1}
-//                 width={"100%"}
-//               >
-//                 <img
-//                   style={{
-//                     width: "142px",
-//                     height: "220px",
-//                     borderRadius: "190px",
-//                   }}
-//                   src="https://s3-alpha-sig.figma.com/img/b220/54ac/3fcf29a0776a645093bbda2fc2666665?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EYCOfF1FgjuNv4IH8dvn7muSBSb8GZOLmDA7qE0HFzSimqYj99raLPbbQMF49VJXIoQL8I6L4xiM8U0pQla0QuoyRbO3xPa8EGBxk2YBo9bN9GEotc35pv3BvRq-D~EHU3u5OuqVQ6Ky8eOxlRvrDVRyZMJ1nD~-2XrQi5pjJomXW8K4ynGg-JWc9FCOr5vCD7ztUerUBauQNGxtBH1qts1VJnKDVgtgr6ICLn9khbWqpkQeqS5SDnW6zGTQBCHGrHyuiIgYh3etQegJ6DfCFJpZMpQZv5zaQ3YZ~aB6pjOxmsCOvQqXVlswuj3J5G5mbSQ6uoNbihIkDapxQCs4Rw__"
-//                 />
-//                 <Typography fontWeight={700} fontSize={"25px"}>
-//                   Felbin
-//                 </Typography>
-//                 <Typography
-//                   textAlign={"center"}
-//                   fontWeight={400}
-//                   fontSize={"12px"}
-//                 >
-//                   Lorem Ipsum is simply dummy text of the printing and
-//                   typesetting industry
-//                 </Typography>
-//                 <Rating
-//                   name="simple-controlled"
-//                   value={value}
-//                   onChange={(event, newValue) => {
-//                     setValue(newValue);
-//                   }}
-//                 />
-//               </Box>
-//             </Grid>
-//           ))}
-//         </Grid>
-//       </Box>
-//     </Box>
-//   );
-// }
-
-// export default Testimonials;
-
 import {
   Box,
   Button,
@@ -113,183 +15,250 @@ import { keyframes } from "@emotion/react";
 const eventData = [
   {
     name: "Jhon",
-    image: "/images/testimonial1.avif",
+    image: "/images/test1.jpeg",
   },
   {
-    name: "Aegon",
-    image: "/images/testimonial2.avif",
+    name: "Jhon",
+    image: "/images/test2.jpeg",
   },
   {
-    name: "Sansa",
-    image: "/images/testimonial3.avif",
+    name: "Jhon",
+    image: "/images/test3.jpeg",
   },
   {
-    name: "Aria",
-    image: "/images/testimonial4.jpg",
+    name: "Jhon",
+    image: "/images/test4.jpeg",
+  },
+  {
+    name: "Jhon",
+    image: "/images/test5.jpeg",
+  },
+  {
+    name: "Jhon",
+    image: "/images/test6.jpeg",
   },
 ];
 
 function Testimonials() {
   const [value, setValue] = React.useState(5);
-  const scrollRef = useRef(null);
+  const [currentIndex, setCurrentIndex] = React.useState(0);
+  
   const handleScroll = (direction) => {
-    const container = scrollRef.current;
-    if (container) {
-      const cardWidth = container.querySelector("[data-card]").offsetWidth; // Assuming each card has a data-card attribute
-      const scrollAmount = direction === "left" ? -cardWidth : cardWidth;
-      container.scrollBy({ left: scrollAmount, behavior: "smooth" });
+    if (direction === "left") {
+      setCurrentIndex((prev) => 
+        prev === 0 ? eventData.length - 1 : prev - 1
+      );
+    } else {
+      setCurrentIndex((prev) => 
+        prev === eventData.length - 1 ? 0 : prev + 1
+      );
     }
   };
 
   const fadeInAnimation = keyframes`
-  0% {
-    transform:scale(1.5)
-  }
-  100% {
-    transform:scale(1)
-  }
-`;
+    0% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  `;
+
   return (
-    <Box mt={5}>
+    <Box mt={5} px={{ xs: 2, sm: 3, md: 4 }}>
       <Typography
-        textAlign={"center"}
+        textAlign="center"
         fontWeight={800}
-        fontSize={{ xs: "1.5rem", md: "2rem" }}
-        color={"#100854"}
+        fontSize={{ xs: "1.5rem", sm: "1.8rem", md: "2rem" }}
+        color="#100854"
         mb={3}
       >
         Testimonials: What Our Community Says
       </Typography>
+      
       <Typography
-        textAlign={"center"}
+        textAlign="center"
         fontWeight={500}
-        fontSize={{ xs: "1rem", md: "1.2rem" }}
-        color={"#100854"}
-        mb={3}
+        fontSize={{ xs: "0.9rem", sm: "1rem", md: "1.2rem" }}
+        color="#100854"
+        mb={4}
+        px={{ xs: 1, sm: 2, md: 4 }}
       >
-        Hear directly from school leaders, educators, and partners who’ve
+        Hear directly from school leaders, educators, and partners who've
         experienced the Helping Gurus impact.
       </Typography>
+
       <Grid
         container
         borderRadius={3}
-        display={"flex"}
-        justifyContent={"center"}
-        alignItems={"center"}
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
       >
-        {/* <Title title={"Experiential Learning"} /> */}
-
         <Box
           position="relative"
-          maxWidth={"100%"}
-          display={"flex"}
-          justifyContent={"center"}
-          alignItems={"center"}
-          width={{ lg: "50%", md: "60%", sm: "75%", xs: "100%" }}
+          width="100%"
+          maxWidth="800px"
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          minHeight={{ xs: "280px", sm: "330px", md: "380px" }}
         >
+          {/* Single Image Display */}
           <Box
-            display={"flex"}
-            justifyContent={{ xs: "start" }}
-            overflow={"auto"}
-            width={{
-              xs: "90%",
-              md: "70%",
-            }}
-            sx={{ scrollbarWidth: "none" }}
-            ref={scrollRef}
+            display="flex"
+            justifyContent="center"
+            alignItems="center"
+            width="100%"
+            px={{ xs: 6, sm: 8, md: 10 }}
           >
-            {eventData.map((data, index) => (
+            <Box
+              sx={{
+                width: { 
+                  xs: "100%", 
+                  sm: "100%", 
+                  md: "100%" 
+                },
+                animation: `${fadeInAnimation} ease 0.8s`,
+              }}
+            >
               <Box
-                key={index}
-                data-card
-                sx={{
-                  flex: "0 0 auto",
-                  justifyContent: "center",
-                  display: "flex",
-                  width: { xs: "100%" },
-                  animation: `${fadeInAnimation} ease 0.8s`,
-                }}
-                className="fade-in"
+                display="flex"
+                flexDirection="column"
+                alignItems="center"
+                gap={2}
+                width="100%"
               >
                 <Box
-                  display={"flex"}
-                  flexDirection={"column"}
-                  alignItems={"center"}
+                  component="img"
+                  src={eventData[currentIndex].image}
+                  alt={`Testimonial ${currentIndex + 1}`}
+                  loading="lazy"
+                  sx={{
+                    width: "100%",
+                    height: {
+                      xs: "250px",
+                      sm: "300px",
+                      md: "500px",
+                    },
+                    borderRadius: 3,
+                    objectFit: "fill",
+                    background: "linear-gradient(to right, #6D7BFE, #3034BB)",
+                    transition: "all 0.3s ease",
+                    boxShadow: "0 8px 32px rgba(0,0,0,0.1)",
+                    "&:hover": {
+                      transform: "scale(1.02)",
+                      boxShadow: "0 12px 40px rgba(0,0,0,0.15)",
+                    },
+                  }}
+                />
+                
+                {/* Dots Indicator */}
+                <Box
+                  display="flex"
                   gap={1}
-                  width={"100%"}
+                  justifyContent="center"
+                  mt={2}
                 >
-                  <img
-                    style={{
-                      width: "142px",
-                      height: "220px",
-                      borderRadius: "190px",
-                      objectFit: "cover",
-                      background: "linear-gradient(to right, #6D7BFE, #3034BB)",
-                    }}
-                    loading="lazy"
-                    src={data.image}
-                  />
-                  <Typography fontWeight={700} fontSize={"25px"}>
-                    {data.name}
-                  </Typography>
-                  <Typography
-                    textAlign={"center"}
-                    fontWeight={400}
-                    fontSize={"12px"}
-                  >
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry
-                  </Typography>
-                  <Rating
-                    name="simple-controlled"
-                    value={value}
-                    onChange={(event, newValue) => {
-                      setValue(newValue);
-                    }}
-                  />
+                  {eventData.map((_, index) => (
+                    <Box
+                      key={index}
+                      onClick={() => setCurrentIndex(index)}
+                      sx={{
+                        width: 12,
+                        height: 12,
+                        borderRadius: "50%",
+                        backgroundColor: currentIndex === index ? "#FF8126" : "#E0E0E0",
+                        cursor: "pointer",
+                        transition: "all 0.3s ease",
+                        "&:hover": {
+                          backgroundColor: currentIndex === index ? "#FF8126" : "#BDBDBD",
+                          transform: "scale(1.2)",
+                        },
+                      }}
+                    />
+                  ))}
                 </Box>
+                
+                {/* Uncomment if you want to show testimonial content */}
+                {/* <Typography 
+                  fontWeight={700} 
+                  fontSize={{ xs: "18px", sm: "22px", md: "25px" }}
+                  textAlign="center"
+                  mt={1}
+                >
+                  {eventData[currentIndex].name}
+                </Typography>
+                <Typography
+                  textAlign="center"
+                  fontWeight={400}
+                  fontSize={{ xs: "12px", sm: "14px", md: "16px" }}
+                  px={2}
+                  color="#666"
+                >
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry
+                </Typography>
+                <Rating
+                  name="simple-controlled"
+                  value={value}
+                  size="medium"
+                  onChange={(event, newValue) => {
+                    setValue(newValue);
+                  }}
+                /> */}
               </Box>
-            ))}
+            </Box>
           </Box>
 
-          {/* Navigation buttons overlay */}
+          {/* Left Navigation Button */}
           <IconButton
             onClick={() => handleScroll("left")}
             size="small"
             sx={{
               position: "absolute",
-              left: 10,
+              left: { xs: 5, sm: 10, md: 15 },
               top: "50%",
               transform: "translateY(-50%)",
               zIndex: 2,
               background: "#FF8126",
               color: "white",
+              width: { xs: 35, sm: 40, md: 45 },
+              height: { xs: 35, sm: 40, md: 45 },
               "&:hover": {
                 background: "grey",
                 color: "white",
+                transform: "translateY(-50%) scale(1.1)",
               },
+              transition: "all 0.2s ease",
             }}
           >
-            <ArrowLeftIcon />
+            <ArrowLeftIcon fontSize="inherit" />
           </IconButton>
+
+          {/* Right Navigation Button */}
           <IconButton
             onClick={() => handleScroll("right")}
             size="small"
             sx={{
               position: "absolute",
-              right: 10,
+              right: { xs: 5, sm: 10, md: 15 },
               top: "50%",
               transform: "translateY(-50%)",
               zIndex: 2,
               background: "#FF8126",
               color: "white",
+              width: { xs: 35, sm: 40, md: 45 },
+              height: { xs: 35, sm: 40, md: 45 },
               "&:hover": {
                 background: "grey",
                 color: "white",
+                transform: "translateY(-50%) scale(1.1)",
               },
+              transition: "all 0.2s ease",
             }}
           >
-            <ArrowRightIcon />
+            <ArrowRightIcon fontSize="inherit" />
           </IconButton>
         </Box>
       </Grid>
